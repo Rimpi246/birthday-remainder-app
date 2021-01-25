@@ -1,0 +1,23 @@
+<%- include ('partials/header') %>
+
+
+<h1>Login</h1>
+        <div class="container">
+
+           <form class="" action="/login" method="post">
+             <label for="uname"><b>Username</b></label>
+             <input type="text" placeholder="Enter Username or email" name="uname" required>
+
+             <label for="psw"><b>Password</b></label>
+             <input type="password" placeholder="Enter Password" name="psw" required>
+
+             <button class="btn btn-info" type="submit">Login</button>
+             <label>
+               <input type="checkbox" checked="checked" name="remember"> Remember me</input>
+               </label>
+           </form>
+         </div>
+
+
+
+<%- include ('partials/footer') %>

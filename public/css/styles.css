@@ -1,0 +1,99 @@
+h1{
+  padding-top: 3rem;
+  text-align: center;
+  color: #407294;
+}
+body{
+  content: center;
+  background-color: #c6e2ff;
+}
+.name-input{
+  padding: 20px;
+}
+
+.box {
+  padding:20px;
+  text-align: center;
+  max-width: 500px;
+  margin: 50px auto;
+  background: #00ffff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.save-button{
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  background-color:  #ffabe1;
+  margin : 20px;
+  border-color:  white;
+}
+.save-button:hover {
+    border-radius: 20px;
+    background-color: #ef4f4f;
+  }
+.plus-button{
+  min-height: 50px;
+width: 50px;
+border-radius: 50%;
+border-color: transparent;
+background-color: #A683E3;
+color: #fff;
+font-size: 30px;
+padding-bottom: 6px;
+border-width: 0;
+}
+.free{
+  text-align: center;
+}
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.container {
+  padding: 16px;
+  width: 50rem;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

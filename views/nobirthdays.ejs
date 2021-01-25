@@ -1,0 +1,22 @@
+<%- include ('partials/header') %>
+<nav class="navbar navbar-default">
+<div class="container">
+  <div class="navbar-header">
+    <p class="navbar-brand"></p>
+  </div>
+    <ul class="nav navbar-nav navbar-right">
+      <form class="" action="/logout" method="get">
+      <button class="btn btn-info" type="submit" name="button">Logout</button>
+      </form>
+    </ul>
+</div>
+</nav>
+<h1>No Birthday Today!</h1>
+<div class="box">
+  <h2>You are free now :) </h2>
+<form class="" action="/newbirthday" method="get">
+<button class="plus-button" type="submit">+</button>
+</form>
+</div>
+
+<%- include ('partials/footer') %>

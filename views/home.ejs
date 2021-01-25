@@ -1,0 +1,36 @@
+<%- include ('partials/header') %>
+<nav class="navbar navbar-default">
+<div class="container">
+  <div class="navbar-header">
+    <p class="navbar-brand"></p>
+  </div>
+    <ul class="nav navbar-nav navbar-right">
+      <form class="" action="/logout" method="get">
+      <button class="btn btn-info" type="submit" name="button">Logout</button>
+      </form>
+    </ul>
+</div>
+</nav>
+<h1>Upcoming Birthdays</h1>
+
+<% birthday.forEach(function(birthday){ %>
+  <div class="container">
+  <div class="box">
+  <div class="">
+    <h3>Your friend <%= birthday.name %> has birthday today </h2>
+  </div>
+  <div class="">
+    <h3>Go wish your friend</h2>
+      <a href="mailto:?body=Happy birthday!">📧</a>
+
+      <a class="fa fa-facebook-official" href="http://facebook.com" aria-hidden="true"></a>
+      <a class="fa fa-instagram" href="http://instagram.com" aria-hidden="true"></a>
+  <% }); %>
+  </div>
+  <form class="" action="/newbirthday" method="get">
+<button class="plus-button" type="submit">+</button>
+  </form>
+</div>
+
+</div>
+<%- include ('partials/footer') %>
